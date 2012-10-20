@@ -1,5 +1,4 @@
 void vernacular() {
-  background(255);
   rectMode(CENTER);
   noFill();
   float side = 100;

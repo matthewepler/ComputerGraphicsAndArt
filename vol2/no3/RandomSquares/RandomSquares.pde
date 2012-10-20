@@ -100,9 +100,11 @@ CORE REQUIREMENTS FOR RDMSQ
 
 void setup() {
   size(500, 700);
+  background(255);
   noLoop();
 }
 
 void draw() {
-  vernacular();
+  //vernacular();
+  rosetta();
 }
