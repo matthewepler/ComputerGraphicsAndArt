@@ -1,11 +1,14 @@
 /*
  methods:
- 1. preserve the spirit of the image
+ 1. vernacular
+   preserve the spirit of the image
    least work
    but the influence of the original tool is lost
- 2. preserve the spirit of the code
-   acts like a rosetta stone connecting old languages to new languages
- 3. write a parser to run the original code
+ 2. rosetta
+   preserve the spirit of the code itself
+   connects old languages to new languages
+ 3. revival
+   write a parser to run the original code
    most work
    preserves everything but the output medium (plotter)
 */
@@ -94,3 +97,12 @@ FEATURES SUPPORTED
 CORE REQUIREMENTS FOR RDMSQ
  COMMON    O  INSKEL COMMON    0  VARIABLES    110  PROGRAM    444
 */
+
+void setup() {
+  size(500, 700);
+  noLoop();
+}
+
+void draw() {
+  vernacular();
+}
