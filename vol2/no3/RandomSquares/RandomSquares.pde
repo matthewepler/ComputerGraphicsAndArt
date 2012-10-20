@@ -1,4 +1,16 @@
 /*
+ methods:
+ 1. preserve the spirit of the image
+   least work
+   but the influence of the original tool is lost
+ 2. preserve the spirit of the code
+   acts like a rosetta stone connecting old languages to new languages
+ 3. write a parser to run the original code
+   most work
+   preserves everything but the output medium (plotter)
+*/
+
+/*
 // JOB
 // FOR RDMSQ
 *NONPROCESS PROGRAM
