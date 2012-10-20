@@ -117,8 +117,7 @@ void HYPLT(float x, float y, int mode) {
   } else if(mode == 1) { // down + move
     penDown();
     penMove(x, y);
-  } else if(mode == 2) { // close/up + move
+  } else if(mode == 2) { // close/up
     penUp();
-    penMove(x, y);
   }
 }
